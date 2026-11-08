@@ -34,7 +34,7 @@ Support for Emby, Jellyfin, Plex or any other server is not currently in my plan
 - **Formats:** FLAC, ALAC, WAV, MP3, AAC, Ogg Vorbis, Opus and DSD (DSF files).
 - **Library:** artists, albums, songs, genres, composers, years and M3U playlists, with sorting and search.
 - **Playlists and favorites,** recently played and most played.
-- **Lyrics:** embedded in the file, from an `.lrc` file next to the song, or from LRCLIB; synced lyrics scroll with the music. Tap the album art to show them.
+- **Lyrics:** embedded in the file, from an `.lrc` file next to the song, or from LRCLIB; synced lyrics scroll with the music. Tap the album art on the "Now Playing" screen to show them.
 - **Internet radio** from the Radio Browser directory, including HLS (.m3u8) stations, with favorite stations.
 - **Artist photos** from Deezer.
 - **Light, dark or system theme.**
