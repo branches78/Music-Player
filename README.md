@@ -31,10 +31,10 @@ Support for Emby, Jellyfin, Plex or any other server is not currently in my plan
 
 ## Other features
 
-- **Formats:** FLAC, ALAC, WAV, MP3, AAC, Ogg Vorbis, Opus and DSD (DSF files).
+- **Formats:** FLAC, ALAC, WAV, MP3, AAC, Ogg Vorbis, Opus and DSD (DSF files), plus Dolby Digital, Dolby Digital Plus and Dolby Atmos in `.m4a` on phones that can play them.
 - **Library:** artists, albums, songs, genres, composers, years and M3U playlists, with sorting and search.
 - **Playlists and favorites,** recently played and most played.
-- **Lyrics:** embedded in the file, from an `.lrc` file next to the song, or from LRCLIB; synced lyrics scroll with the music. Tap the album art on the "Now Playing" screen to show them.
+- **Lyrics:** embedded in the file, from an `.lrc` file next to the song, or from LRCLIB; synced lyrics scroll with the music. Tap the album art to show them.
 - **Internet radio** from the Radio Browser directory, including HLS (.m3u8) stations, with favorite stations.
 - **Artist photos** from Deezer.
 - **Light, dark or system theme.**
@@ -42,7 +42,7 @@ Support for Emby, Jellyfin, Plex or any other server is not currently in my plan
 
 ## Installing
 
-1. Download `MusicPlayer-1.0.0.apk` from [Releases](https://github.com/branches78/Music-Player/releases/latest).
+1. Download `MusicPlayer-1.0.1.apk` from [Releases](https://github.com/branches78/Music-Player/releases/latest).
 2. Open it on the phone and allow installing apps from that source if Android asks.
 3. On first launch, allow access to your files and choose your music folder.
 
