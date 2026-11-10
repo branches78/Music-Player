@@ -56,4 +56,4 @@ The app has no accounts, ads or analytics. It only connects to the internet for 
 
 Built with AndroidX Media3 and smbj. Radio stations from Radio Browser, artist photos from Deezer and lyrics from LRCLIB. The full list of open-source libraries and their licenses is in the app, under *Settings › About › Open-source licenses*.
 
-> The source code of this app is not public. This repository is where the app is published: download it from [Releases](https://github.com/branches78/Music-Player/releases/latest).
+The source code of this app is not public. This repository is where the app is published: download it from [Releases](https://github.com/branches78/Music-Player/releases/latest).
