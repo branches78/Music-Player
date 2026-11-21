@@ -14,6 +14,8 @@ When you use this app on a supported model and connect a DAC, the app automatica
 
 You can scan any folder from your phone's internal storage, as well as shared network folders (Samba/SMB) from a computer or NAS.
 
+The same APK also works on Android TV and Google TV devices, with its own interface made for the remote.
+
 As I already mentioned, this app was made for personal use, so the UI is exactly the way I wanted it to be, which means I won't change it beyond the usual bug fixes and improvements.
 
 If you have a suggestion, I may consider it depending on the request. Just open an issue and I will be more than happy to review it.
@@ -31,18 +33,21 @@ Support for Emby, Jellyfin, Plex or any other server is not currently in my plan
 
 ## Other features
 
-- **Formats:** FLAC, ALAC, WAV, MP3, AAC, Ogg Vorbis, Opus and DSD (DSF files), plus Dolby Digital, Dolby Digital Plus and Dolby Atmos in `.m4a` on phones that can play them.
+- **Formats:** FLAC, ALAC, WAV, WavPack, MP3, AAC, Ogg Vorbis, Opus and DSD (DSF files), plus Dolby Digital, Dolby Digital Plus and Dolby Atmos in `.m4a`, and DTS in WAV, on devices that can play them.
 - **Library:** artists, albums, songs, genres, composers, years and M3U playlists, with sorting and search.
 - **Playlists and favorites,** recently played and most played.
 - **Lyrics:** embedded in the file, from an `.lrc` file next to the song, or from LRCLIB; synced lyrics scroll with the music. Tap the album art on the "Now Playing" screen to show them.
-- **Internet radio** from the Radio Browser directory, including HLS (.m3u8) stations, with favorite stations.
-- **Artist photos** from Deezer.
+- **Internet radio** from the Radio Browser directory: every station with its format, including HLS (.m3u8) ones, with FLAC, nearby, country, decade and genre filters, and favorite stations.
+- **Song info from MusicBrainz:** the album, year, genre and cover a song's tags lack, kept in the app without changing your files.
+- **Artist photos** from MusicBrainz (Wikimedia Commons), and from Deezer when it has none.
+- **Google Cast** (phone): send the music to a Chromecast or a Cast speaker.
+- **Sync between devices** that use the same network folder: recently played, play counts and favorites.
 - **Light, dark or system theme.**
 - **Languages:** English and Spanish. If you want it in your language, please let me know.
 
 ## Installing
 
-1. Download `MusicPlayer-1.0.1.apk` from [Releases](https://github.com/branches78/Music-Player/releases/latest).
+1. Download `MusicPlayer-1.2.0.apk` from [Releases](https://github.com/branches78/Music-Player/releases/latest).
 2. Open it on the phone and allow installing apps from that source if Android asks.
 3. On first launch, allow access to your files and choose your music folder.
 
@@ -50,10 +55,10 @@ The app is not on Google Play yet, and I still haven't decided whether I'll publ
 
 ## Privacy
 
-The app has no accounts, ads or analytics. It only connects to the internet for radio, lyrics, artist photos and the bit-perfect report, if you choose to send it. Network folder passwords are stored encrypted on the phone.
+The app has no accounts, ads or analytics. It only connects to the internet for radio, lyrics, artist photos, song info and the bit-perfect report, if you choose to send it. Your approximate location is only used, if you allow it, to find radio stations near you. Network folder passwords are stored encrypted on the phone.
 
 ## Credits
 
-Built with AndroidX Media3 and smbj. Radio stations from Radio Browser, artist photos from Deezer and lyrics from LRCLIB. The full list of open-source libraries and their licenses is in the app, under *Settings › About › Open-source licenses*.
+Built with AndroidX Media3, smbj and WavPack. Radio stations from Radio Browser, song info from MusicBrainz and the Cover Art Archive, artist photos from Wikimedia Commons and Deezer, and lyrics from LRCLIB. The full list of open-source libraries and their licenses is in the app, under *Settings › About › Open-source licenses*.
 
 The source code of this app is not public. This repository is where the app is published: download it from [Releases](https://github.com/branches78/Music-Player/releases/latest).
