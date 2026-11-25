@@ -34,20 +34,21 @@ Support for Emby, Jellyfin, Plex or any other server is not currently in my plan
 ## Other features
 
 - **Formats:** FLAC, ALAC, WAV, WavPack, MP3, AAC, Ogg Vorbis, Opus and DSD (DSF files), plus Dolby Digital, Dolby Digital Plus and Dolby Atmos in `.m4a`, and DTS in WAV, on devices that can play them.
-- **Library:** artists, albums, songs, genres, composers, years and M3U playlists, with sorting and search.
+- **Library:** artists, albums, songs, genres, composers, years, folders and M3U playlists, with sorting and search; its tabs can be hidden and reordered.
 - **Playlists and favorites,** recently played and most played.
 - **Lyrics:** embedded in the file, from an `.lrc` file next to the song, or from LRCLIB; synced lyrics scroll with the music. Tap the album art on the "Now Playing" screen to show them.
 - **Internet radio** from the Radio Browser directory: every station with its format, including HLS (.m3u8) ones, with FLAC, nearby, country, decade and genre filters, and favorite stations.
 - **Song info from MusicBrainz:** the album, year, genre and cover a song's tags lack, kept in the app without changing your files.
 - **Artist photos** from MusicBrainz (Wikimedia Commons), and from Deezer when it has none.
-- **Google Cast** (phone): send the music to a Chromecast or a Cast speaker.
+- **Google Cast** (phone): send the music to a Chromecast, a Cast speaker or an Android TV / Google TV with Cast built in, where it shows its own "Now Playing" screen.
+- **Screensaver** (TV): after a while without using the remote, an animated scene or a visualization that moves with the music covers "Now Playing".
 - **Sync between devices** that use the same network folder: recently played, play counts and favorites.
 - **Light, dark or system theme.**
 - **Languages:** English and Spanish. If you want it in your language, please let me know.
 
 ## Installing
 
-1. Download `MusicPlayer-1.2.0.apk` from [Releases](https://github.com/branches78/Music-Player/releases/latest).
+1. Download `MusicPlayer-1.3.0.apk` from [Releases](https://github.com/branches78/Music-Player/releases/latest).
 2. Open it on the phone and allow installing apps from that source if Android asks.
 3. On first launch, allow access to your files and choose your music folder.
 
